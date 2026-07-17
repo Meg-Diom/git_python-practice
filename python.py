@@ -6,9 +6,11 @@ if name == "Beifong":
     else:
         print("Incorrect pincode.")
         pincode = int(input("Enter your pincode again: "))
-        if pincode == 2005:
+        if pincode == 2006:
             print("That was close! Welcome home!!!")
         else: 
             print("Your fingerprint is required to unlock this device.")
 else:
-    print("You are not eligible to unlock this device.")
+    print("You are not eligible to lock this device.")
+
+
